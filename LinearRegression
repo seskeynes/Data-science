@@ -1,0 +1,7 @@
+##导入包
+import numpy as np
+import pandas as pd
+
+#通过pandas读取txt文件
+data=pd.read_csv('/Users/***/Documents/qv_train2.txt',sep='$',encoding='utf-8')#
+data
